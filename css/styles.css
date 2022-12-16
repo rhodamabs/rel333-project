@@ -3,11 +3,16 @@
 }
 html {
     background-color: rgb(128, 128,128, 0.5);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 18px;
 }
 header {
     background-color: aqua;
     padding: 5px;
     padding-left: 10px;
+}
+header, nav {
+    border-radius: 10px;
 }
 #wrapper, nav {
     max-width: 960px;
@@ -28,7 +33,7 @@ nav ul{
 nav ul li{
     list-style: none;
     padding:20px 0;
-    font-size: 1.5em;
+    font-size: 0.9em;
 }
 nav ul li a {
     text-decoration: none;
@@ -43,6 +48,15 @@ nav ul li a:hover {
 nav ul li.active a {
     background-color: rgb(0, 100, 0, 0.8);
     color: #fff;
+}
+.container-walk {
+    background-color: aliceblue;
+    padding: 20px;
+}
+div {
+    background-color: aquamarine;
+   padding: 10px;
+   border-radius: 10px;
 }
 footer{
     text-align: center;
